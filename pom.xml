@@ -298,7 +298,7 @@
         <repository>
             <id>nexus</id>
             <name>Nexus</name>
-            <url>http://192.168.6.1:8081/repository/maven-public/</url>
+            <url>http://192.168.6.1/nexus/content/groups/public/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -311,7 +311,7 @@
         <pluginRepository>
             <id>nexus</id>
             <name>Nexus</name>
-            <url>http://192.168.6.1:8081/repository/maven-public/</url>
+            <url>http://192.168.6.1/nexus/content/groups/public/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -324,11 +324,11 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-            <url>http://192.168.6.1:8081/repository/maven-releases/</url>
+            <url>http://192.168.6.1/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
-            <url>http://192.168.6.1:8081/repository/maven-snapshots/</url>
+            <url>http://192.168.6.1/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
