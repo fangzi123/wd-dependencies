@@ -296,7 +296,7 @@
     </dependencyManagement>
     <repositories>
         <repository>
-            <id>nexus</id>
+            <id>central</id>
             <name>Nexus</name>
             <url>http://192.168.6.1/nexus/content/groups/public/</url>
             <releases>
@@ -309,7 +309,7 @@
     </repositories>
     <pluginRepositories>
         <pluginRepository>
-            <id>nexus</id>
+            <id>central</id>
             <name>Nexus</name>
             <url>http://192.168.6.1/nexus/content/groups/public/</url>
             <releases>
