@@ -17,6 +17,7 @@
         <springboot.version>2.0.6.RELEASE</springboot.version>
         <curator.version>4.0.1</curator.version>
         <spring.version>5.0.10.RELEASE</spring.version>
+        <java.version>11</java.version>
 
         <!--datasource-->
         <mysql.version>8.0.11</mysql.version>
